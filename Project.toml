@@ -1,0 +1,13 @@
+name = "Sparips"
+uuid = "6c0dbd58-b76f-11e8-26ca-e517c9438a5f"
+authors = ["Bernhard Brehm <bbrehm@kth.se>"]
+version = "0.0.1"
+
+[deps]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
+RecipesBase = "3cdcf5f2-1ef4-517c-9805-6587b60abb01"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+julia = "1.0"
