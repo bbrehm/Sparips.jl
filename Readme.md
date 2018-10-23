@@ -4,4 +4,16 @@
 
 The usage of `Sparips.jl` is explained in the [tutorial](./docs/tutorial/sparips_tutorial.md). 
 
+We have some preliminary [benchmarks](./docs/benchmarks/comparison_gudhi.md) of sparsification rates and runtimes, compared to [gudhi](http://gudhi.gforge.inria.fr/).
+
 The API has not yet stabilized; it is for this reason that the documentation is still rather lacking. If there are components of `Sparips.jl` that you would like to use in a different project, please open an issue. For example, the metric contraction tree might be a useful basis also in the context of manifold learning.
+
+
+## Installation
+
+`Sparips.jl` is not registered yet. It can be installed by 
+
+```
+(v1.0) pkg> add https://github.com/bbrehm/Sparips.jl
+(v1.0) pkg> build Sparips
+```
